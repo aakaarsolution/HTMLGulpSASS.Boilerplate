@@ -1,0 +1,45 @@
+{
+  "name": "htmlgulpboilerplate",
+  "version": "1.1.0",
+  "description": "This boilerplate supports partial files by file-include package and generates critical css separate file",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp serve",
+    "build": "gulp build"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Yubaraj Rai",
+    "email": "connectyubaraj@gmail.com",
+    "url": "https://yubarajrai.name.np/"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-css-globbing": "^0.2.2",
+    "gulp-file-include": "^2.3.0",
+    "gulp-fs": "0.0.2",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-load-plugins": "^2.0.8",
+    "gulp-notify": "^4.0.0",
+    "gulp-open": "^3.0.1",
+    "gulp-penthouse": "^0.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "phantomjs": "^2.1.7",
+    "python3": "^0.0.1",
+    "sass": "^1.63.6"
+  }
+}
